@@ -76,7 +76,7 @@ fetch('js/data.json')
         // btn.classList.add("hidden")
 
         const addCartIcon = document.createElement("img");
-        addCartIcon.src = "../assets/images/icon-add-to-cart.svg";
+        addCartIcon.src = "assets/images/icon-add-to-cart.svg";
         addCartIcon.alt = "add to cart";
 
         const spanAddToCart = document.createElement("span");
