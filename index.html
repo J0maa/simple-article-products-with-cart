@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png"> 
+  <meta type="description" content="product list width cart from frontend mentor site for trainig"> 
+  <title>Frontend Mentor | Product list with cart</title>
+  <!--  Red Hat Text font from google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap" rel="stylesheet">
+  <!-- main style sheet -->
+   <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <section class="main">
+        <div class="container">
+            <div class="page-content">
+                <main class="main-content">
+                    <h2 class="heading-xxl">Desserts</h2>
+                    <div class="products" id="products">
+
+                    </div>
+                </main>
+                
+                <div class="aside">
+                    <aside class="product-cart">
+                        <h2 class="heading-bg">Your Cart (<span class="product-numbers">0</span>)</h2>
+                        <div class="no-shopping-image hidden" style="display: none;">
+                            <img src="assets/images/illustration-empty-cart.svg" alt="no shopping yet">
+                            <p class="text-lg">Your added items will appear here.</p>
+                        </div>
+
+                    </aside>
+                    <div class="carbon-neutral text-sm">
+                        <div class="carbon">
+                            <img src="assets/images/icon-carbon-neutral.svg" alt="carbon neutral"/> <span class="carbon-neutral-text">This is a <strong>carbon-nutral</strong> delivery.</span>
+                        </div>
+                    </div>
+                    <div class="confirm-order">
+                        <button type="button" class="text-xxl" id="confirm-btn">Confirm Order</button>
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+        
+    </section>
+    <section class="confirm-message-section">
+                <div class="confirm-message">
+                    <div class="order-confirmed-sign">
+                        <img src="assets/images/icon-order-confirmed.svg" alt="confirmed"/>
+                    </div>
+                    <h2 class="heading-bg">Order Confirmed</h2>
+                    <p class="text-sm">We hope you engoy your food!</p>
+                    <div class="orders" id="orderss">
+
+                    </div>
+                    <div id="confirm-message-total-price">
+
+                    </div>
+                    <div class="start-new-order">
+                        <button type="button" id="new-order-btn" class="start-new-order text-xl">Start New Order</button>
+                    </div>
+                </div>
+            </section>
+    <script src="js/main.js"></script>
+</body>
+</html>
